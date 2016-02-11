@@ -1,0 +1,17 @@
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto; }
+
+#banner {
+  background-image: url(../images/banner_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #banner header {
+    padding: 2rem 0; }
+  #banner #logo {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.35rem; }
+
+/*# sourceMappingURL=style.css.map */

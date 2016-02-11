@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "$white ": expected ":", was "= #FFFFFF;"
+        on line 1 of style.scss
+
+1: $white = #FFFFFF;
+2: $highlight = #7ac483;
+3: $grey_background = #f2f1f8;
+4: 
+5: .wrapper {
+6: 	width: 1440px;
+
+Backtrace:
+style.scss:1
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:617:in `variable'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:414:in `run'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/bin/sass:23:in `load'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/bin/sass:23:in `<main>'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `eval'
+/Users/wiraazharan/.rvm/gems/ruby-2.2.0/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$white \": expected \":\", was \"= #FFFFFF;\"\A         on line 1 of style.scss\A \A 1: $white = #FFFFFF;\A 2: $highlight = #7ac483;\A 3: $grey_background = #f2f1f8;\A 4: \A 5: .wrapper {\A 6: 	width: 1440px;"; }
