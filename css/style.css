@@ -1,3 +1,6 @@
+body {
+  font-family: "brandon-grotesque", Helvetica, Sans-Serif; }
+
 .wrapper {
   width: 1440px;
   max-width: 90%;
@@ -12,6 +15,23 @@
   #banner #logo {
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 1.35rem; }
+    font-size: 1.35rem;
+    float: left;
+    margin: 0; }
+    #banner #logo span {
+      font-weight: 400; }
+  #banner nav {
+    float: right; }
+    #banner nav a {
+      color: #FFFFFF;
+      font-weight: 700;
+      text-decoration: none;
+      margin-left: 2rem; }
+  #banner .content {
+    padding: 2rem 0 6rem 0; }
+    #banner .content .title, #banner .content .subtitle {
+      color: #FFFFFF;
+      font-weight: 700;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
