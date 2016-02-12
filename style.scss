@@ -12,6 +12,29 @@ body {
 	margin: 0 auto; 
 }
 
+.button {
+	border : none;
+	outline : none;
+	border-radius : 2rem;
+	padding: .6rem 3.5rem;
+	font-weight: 700;
+	color : $white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button_highlight {
+	background : $highlight;
+}
+
+.button_secondary {
+	background: rgba(250,250,250,0.35);
+}
+
+.button_small {
+	padding: .3rem 1.5rem;
+}
+
 #banner {
 	background-image: url(../images/banner_background.jpg);
 	background-repeat: no-repeat;
@@ -42,12 +65,31 @@ body {
 	}
 
 	.content {
-		padding : 2rem 0 6rem 0;
+		padding : 4rem 0 8rem 0;
 
 		.title,.subtitle{
 			color: $white;
 			font-weight: 700;
 			text-align: center;
+		}
+		.title {
+			font-size: 3.5rem;
+			margin : 0;
+		}
+		.subtitle {
+			font-weight: 400;
+			font-size: 1.35rem;
+			margin : 0;
+			width : 500px;
+			line-height: 1.75;
+			margin : 0 auto 2rem auto;
+		}
+		.button_wrapper {
+			text-align: center;
+			margin: 3rem 0;
+			.button{
+				margin: 0 0.75rem;
+			}
 		}
 	}
 }
